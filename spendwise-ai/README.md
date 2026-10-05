@@ -36,3 +36,12 @@ Code tham chiếu luôn nằm trong repo dự án; không duy trì một bản c
 Đã chuẩn bị bài 00, 01 và [02 — CSV và validation](lessons/02_csv_and_labels.md), bài tập hư cấu và lộ trình. Chưa xác nhận người học hoàn thành bài; chưa có mô hình tự huấn luyện hoặc kết quả AI. Các mục tiêu chất lượng trong tài liệu dự án là mục tiêu đề xuất.
 
 Hai repo công khai. Chỉ ghi ví dụ hư cấu, kết quả và nhật ký đã loại thông tin cá nhân; không đưa giao dịch thật, khóa truy cập hoặc database vào bài học.
+
+## Thu thập và xây dataset
+
+- [Phương pháp thu thập/xây dữ liệu](guides/01_dataset_collection.md): nguồn đã khảo sát, nguồn được thu, chuyển ngữ, provenance, thu thật tự nguyện, audit và cách chia nhóm.
+- [Guideline tám nhãn](guides/02_labeling_manual.md): ranh giới lớp, trường hợp mơ hồ và gán độc lập.
+- [Bài 02b — đọc và audit dataset](lessons/02b_dataset_construction.md): lệnh thực hành, giải thích Python, bài sửa lỗi và câu hỏi bảo vệ.
+- [Template trống](templates/README.md) và [20 câu luyện gán nhãn](exercises/03_annotation_practice.csv).
+
+Dataset/code ở [repo dự án](https://github.com/Krev1/spendwise-ai/tree/9ac8ed0c4702b30ce4a26b980595526c4031e03a/data). Hiện có 356 mô tả hư cấu thuộc 8 nhãn, 0 mẫu thật; nhãn AI dự thảo, chưa có người duyệt. Có thể học kỹ thuật ngay; chưa có bằng chứng chất lượng phân loại trên chi tiêu thực tế. Người học chưa hoàn thành bài nếu chưa tự chạy/giải thích.

@@ -323,3 +323,11 @@ Nếu thử khả dụng, đề xuất 5–8 người phù hợp trong một pil
 Phần công thức, schema, protocol và các liên kết chính thức nằm trong [tài liệu dữ liệu và ML](https://github.com/Krev1/spendwise-ai/blob/main/docs/05_data_and_ml.md). Khi trích vào luận văn, lập danh mục tài liệu tham khảo theo mẫu trường, ghi ngày truy cập và phiên bản phần mềm thực tế.
 
 Chương công trình liên quan cần được nghiên cứu thêm sau khi giảng viên chốt phạm vi. Tài liệu API không thay cho tổng quan nghiên cứu. Với mỗi bài được đưa vào luận văn, tự ghi: bài toán, dataset, cách chia tập, baseline, metric, giới hạn và liên hệ với đề tài; không đưa một trích dẫn chưa đọc chỉ vì AI gợi ý.
+
+## Bằng chứng về dữ liệu hiện có
+
+Đọc [phương pháp](guides/01_dataset_collection.md), [guideline](guides/02_labeling_manual.md) và [bài 02b](lessons/02b_dataset_construction.md). Code/dataset tham chiếu [commit](https://github.com/Krev1/spendwise-ai/tree/9ac8ed0c4702b30ce4a26b980595526c4031e03a).
+
+Hiện có 356 mô tả hư cấu có truy vết, 0 thật, 0 human-reviewed. Đã thu 100 dòng demo nguồn công khai tại commit cố định; 19 mô tả chọn chuyển ngữ, 160 câu nền tự tạo và 177 biến thể bỏ dấu. Bảo vệ phần engineering bằng recipes, checksum, provenance, source selection và test; không dùng chúng để tuyên bố mô hình khái quát tốt cho người Việt.
+
+Tự trả lời: vì sao license không chứng nhận nhãn, vì sao 356 hàng không độc lập, vì sao tên nhà thuốc không đủ, ground truth được kiểm chứng thế nào và thu thật có consent ở đâu? Không nói đã có agreement/pilot/train/test khi chưa có bằng chứng.

@@ -120,3 +120,7 @@ Viết câu hỏi nghiên cứu trước khi xem kết quả: mô hình văn b�
 ```
 
 Mentor nên giải thích theo lớp: một ví dụ cụ thể → ý tưởng → đoạn code → cách kiểm tra. Bạn nên thử giải thích trước khi đọc đáp án mẫu; câu trả lời mẫu không thay thế khả năng trình bày của bạn.
+
+## Bài 2b — Xây dữ liệu có truy vết
+
+TASK-05–06 / REQ-08,09,13. Đã có [bài thực hành 02b](lessons/02b_dataset_construction.md), [phương pháp](guides/01_dataset_collection.md), [guideline](guides/02_labeling_manual.md) và template trống. Code/dataset ở [commit dự án](https://github.com/Krev1/spendwise-ai/tree/9ac8ed0c4702b30ce4a26b980595526c4031e03a). Tự chạy builder/validator, truy nguồn một mẫu, gán 20 tình huống và giải thích vì sao seed 356 câu hư cấu chưa chứng minh chất lượng thực. Thu thật/pilot/nhãn người duyệt chưa thực hiện.
