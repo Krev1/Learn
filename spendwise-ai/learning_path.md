@@ -1,5 +1,8 @@
 # Lộ trình vừa làm vừa học
 
+> **Bổ sung v0.2:** [guide05](guides/05_public_web_and_deep_learning.md) nối phần học cũ tới ngân sách/web/neural theo SW-TASK. Bài mới chưa được học/kiểm chứng bằng tự làm.
+
+
 Luồng học theo D13: chọn commit/code đã được dự án bàn giao, tạo giải thích tiếng Việt, bài tự làm và bằng chứng thực hành riêng. Dự án tiếp tục độc lập; học có thể đi chậm hơn. Không đánh dấu “đã hiểu” chỉ vì tests dự án pass. Đọc [workflow](study_workflow.md) và [mapping](learning_map.json) để dùng checkout thực hành riêng.
 
 ## Cách học trong một buổi

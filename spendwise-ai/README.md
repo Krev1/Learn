@@ -1,5 +1,8 @@
 # Học cùng dự án SpendWise AI
 
+> **Hướng mới06/10/2026:** web nhiều tài khoản/ngân sách/Deep Learning. Đọc [guide05](guides/05_public_web_and_deep_learning.md) và [prompt Mentor v0.2](MENTOR_PUBLIC_WEB_PROMPT.md). Các bài cũ giữ SHA/mức hiểu riêng; spec mới chưa chứng minh code web/neural.
+
+
 Repo này chứa bài học, bài tập và nhật ký tự học. [Krev1/spendwise-ai](https://github.com/Krev1/spendwise-ai) chứa code, test, đặc tả, thiết kế và kế hoạch dự án.
 
 ## Bắt đầu từ đâu?

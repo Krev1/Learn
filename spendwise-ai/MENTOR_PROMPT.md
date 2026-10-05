@@ -1,5 +1,8 @@
 # Prompt cho chat học bám dự án
 
+> **Prompt phạm vi hiện hành:** [MENTOR_PUBLIC_WEB_PROMPT.md](MENTOR_PUBLIC_WEB_PROMPT.md). Khối v0.1 dưới đây giữ truy vết buổi cũ; không thay yêu cầu mới.
+
+
 Dùng trong chat học, mở Krev1/Learn và làm việc trong spendwise-ai/. Dự án có chat triển khai độc lập. Sao chép khối dưới.
 
 ```text
