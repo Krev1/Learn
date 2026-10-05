@@ -12,7 +12,7 @@ Mỗi mốc có bốn đầu ra: code chạy được, giải thích bằng ti�
 
 Bạn có thể bắt đầu bằng buổi 45–90 phút. Đây là gợi ý tổ chức, không phải yêu cầu thời gian của dự án.
 
-Bắt đầu từ [bài 00](lessons/00_git_and_environment.md), sau đó [bài 01](lessons/01_python_and_money.md). Chỉ hai bài này đã được soạn; bài 02–07 sẽ được tạo theo tiến độ thực.
+Bắt đầu từ [bài 00](lessons/00_git_and_environment.md), sau đó [bài 01](lessons/01_python_and_money.md). Bài [02 — CSV và validation](lessons/02_csv_and_labels.md) cũng đã được soạn; bài 03–07 sẽ tạo theo tiến độ thực.
 
 ## Bài 1 — Python và tiền VND
 
@@ -20,7 +20,7 @@ Bắt đầu từ [bài 00](lessons/00_git_and_environment.md), sau đó [bài 0
 
 Ôn biến, chuỗi, list, dict, hàm, điều kiện, vòng lặp, exception và module. Dùng `int` cho VND nguyên trong phạm vi MVP. `10000 + 25000` có kết quả `35000`; không cần mô hình học máy để tính tổng.
 
-Chạy `examples/csv_contract.py` từ repo dự án `spendwise-ai`, theo [hướng dẫn hai repo](README.md). Tìm hàm `parse_amount` và giải thích vì sao kiểm tra chuỗi trước khi chuyển thành số. Tìm hàm `summarize` và giải thích tại sao thu và chi không cộng chung.
+Chạy `examples/csv_contract.py` từ repo dự án `spendwise-ai`, theo [hướng dẫn hai repo](README.md). Logic thật nằm trong repo dự án: `src/spendwise/domain/transactions.py` chứa `parse_amount`; wrapper chỉ giữ lệnh cũ. Tìm hàm `parse_amount` và giải thích vì sao kiểm tra chuỗi trước khi chuyển thành số. Trong `src/spendwise/services/reports.py`, tìm hàm `summarize` và giải thích tại sao thu và chi không cộng chung.
 
 **Tự làm:** thêm một khoản chi học tập 45.000 đồng trong tháng 10, dự đoán tổng trước khi chạy. Đổi nó thành `-45000` và giải thích vì sao bị từ chối. Viết hàm `net_cashflow(total_income, total_expense)`.
 

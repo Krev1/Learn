@@ -8,7 +8,7 @@ Repo này chứa bài học, bài tập và nhật ký tự học. [Krev1/spendw
 2. Làm [bài 01 — Python và thu–chi](lessons/01_python_and_money.md).
 3. Ghi kết quả và câu trả lời của bạn vào [nhật ký học](progress.md).
 
-Xem [lộ trình học](learning_path.md), [cách Mentor hướng dẫn](mentor_guide.md), [hướng dẫn bảo vệ](defense_guide.md) và [prompt Mentor](MENTOR_PROMPT.md). Bài 02–07 chưa được tạo; sẽ viết khi triển khai phần tương ứng.
+Xem [lộ trình học](learning_path.md), [cách Mentor hướng dẫn](mentor_guide.md), [hướng dẫn bảo vệ](defense_guide.md) và [prompt Mentor](MENTOR_PROMPT.md). Bài 02 đã được soạn để đọc CSV và code domain/services; bài 03–07 sẽ viết khi triển khai phần tương ứng.
 
 ## Dùng hai repo trên Windows
 
@@ -33,6 +33,6 @@ Code tham chiếu luôn nằm trong repo dự án; không duy trì một bản c
 
 ## Phạm vi hiện tại
 
-Đã chuẩn bị bài 00 và 01, CSV hư cấu và lộ trình. Chưa xác nhận người học hoàn thành bài; chưa có mô hình tự huấn luyện hoặc kết quả AI. Các mục tiêu chất lượng trong tài liệu dự án là mục tiêu đề xuất.
+Đã chuẩn bị bài 00, 01 và [02 — CSV và validation](lessons/02_csv_and_labels.md), bài tập hư cấu và lộ trình. Chưa xác nhận người học hoàn thành bài; chưa có mô hình tự huấn luyện hoặc kết quả AI. Các mục tiêu chất lượng trong tài liệu dự án là mục tiêu đề xuất.
 
 Hai repo công khai. Chỉ ghi ví dụ hư cấu, kết quả và nhật ký đã loại thông tin cá nhân; không đưa giao dịch thật, khóa truy cập hoặc database vào bài học.

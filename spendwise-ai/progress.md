@@ -6,7 +6,8 @@ Ngày chuẩn bị: 05/10/2026. Tiến độ kỹ thuật nằm ở [repo dự �
 |---|---|---|
 | [00 — GitHub và môi trường](lessons/00_git_and_environment.md) | Đã soạn | Chưa có câu trả lời tự giải thích |
 | [01 — Python và thu–chi](lessons/01_python_and_money.md) | Đã soạn, có CSV luyện tập | Chưa có bài tự làm/kết quả do người học gửi |
-| 02–07 | Dự kiến theo lộ trình | Chưa bắt đầu |
+| [02 — CSV và validation](lessons/02_csv_and_labels.md) | Đã soạn, có bộ tình huống thực hành; code đạt 50 test | Chưa có bài tự làm/câu trả lời |
+| 03–07 | Dự kiến theo lộ trình | Chưa bắt đầu |
 
 ## Mẫu ghi sau một buổi
 

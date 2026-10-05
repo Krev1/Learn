@@ -119,7 +119,13 @@ print(result)
 
 Ứng dụng cần từ chối số tiền âm, 0 hoặc số thập phân vì chúng trái hợp đồng của MVP. Gặp input sai, chương trình báo lỗi để sửa nguồn; nó không đoán số tiền rồi tính tiếp.
 
-Mở [mã ví dụ](https://github.com/Krev1/spendwise-ai/blob/main/examples/csv_contract.py), tìm ba hàm sau:
+Lệnh ví dụ cũ đi qua [wrapper](https://github.com/Krev1/spendwise-ai/blob/main/examples/csv_contract.py), rồi gọi code dùng chung đã tách theo TASK-04. Tìm ba hàm trong các file sau:
+
+- [csv_reader.py](https://github.com/Krev1/spendwise-ai/blob/main/src/spendwise/services/csv_reader.py): `read_transactions`.
+- [transactions.py](https://github.com/Krev1/spendwise-ai/blob/main/src/spendwise/domain/transactions.py): `parse_amount`.
+- [reports.py](https://github.com/Krev1/spendwise-ai/blob/main/src/spendwise/services/reports.py): `summarize`.
+
+Vai trò của ba hàm:
 
 - `read_transactions`: đọc file và kiểm tra các dòng.
 - `parse_amount`: kiểm tra và chuyển tiền sang số nguyên.
@@ -198,3 +204,6 @@ Trả lời 5 câu hỏi:
 Hoàn thành buổi này khi bạn chạy được ví dụ, tự sửa CSV và giải thích được thay đổi tổng tiền. Bước kế tiếp: ôn hàm/list/dict qua một bài tập nhỏ rồi bắt đầu validator dữ liệu và hướng dẫn gán nhãn ở P2.
 
 Code tham chiếu: [commit f8e91ee](https://github.com/Krev1/spendwise-ai/tree/f8e91eead748e99757fcf21ebd433c127d080dbf), TASK-02–03, REQ-01/06/11–13. Các thay đổi tổ chức repo không đổi code CSV của commit này.
+
+
+Cập nhật TASK-04: lệnh CSV và tổng mẫu giữ nguyên; wrapper gọi module domain/services mới. Các liên kết `main` dẫn đến code hiện hành. Commit khởi động f8e91ee vẫn được giữ làm tham chiếu lịch sử ở trên.
