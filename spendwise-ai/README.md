@@ -27,7 +27,7 @@ thu-muc-cua-ban/
   Learn/spendwise-ai/       # Bài học, bài tập và nhật ký
 ```
 
-Làm theo [README dự án](https://github.com/Krev1/spendwise-ai#readme) để tạo `.venv` nếu chưa có. Đọc bài học trong Learn nhưng chạy các lệnh Python từ thư mục `spendwise-ai`, nơi chứa `.venv` và code. CSV luyện tập được sao chép sang `spendwise-ai/local/`; không sửa CSV mẫu đang dùng cho test.
+Làm theo [README dự án](https://github.com/Krev1/spendwise-ai#readme) để tạo `.venv` nếu chưa có. Theo D13, đọc code dự án nhưng thực hành trong checkout riêng `Learn/spendwise-ai/practice/project/` và `.venv` riêng theo [study_workflow.md](study_workflow.md). Các lệnh bài học ghi root spendwise-ai chạy ở root checkout thực hành, không sửa checkout triển khai. CSV luyện tập nằm trong local/ của bản practice; không sửa CSV gốc đang dùng cho test.
 
 Code tham chiếu luôn nằm trong repo dự án; không duy trì một bản code riêng trong Learn. Mỗi bài mới cần ghi TASK/REQ liên quan và commit code đã dùng để người học có thể đối chiếu.
 
@@ -45,3 +45,9 @@ Hai repo công khai. Chỉ ghi ví dụ hư cấu, kết quả và nhật ký đ
 - [Template trống](templates/README.md) và [20 câu luyện gán nhãn](exercises/03_annotation_practice.csv).
 
 Dataset/code ở [repo dự án](https://github.com/Krev1/spendwise-ai/tree/9ac8ed0c4702b30ce4a26b980595526c4031e03a/data). Hiện có 356 mô tả hư cấu thuộc 8 nhãn, 0 mẫu thật; nhãn AI dự thảo, chưa có người duyệt. Có thể học kỹ thuật ngay; chưa có bằng chứng chất lượng phân loại trên chi tiêu thực tế. Người học chưa hoàn thành bài nếu chưa tự chạy/giải thích.
+
+## Hai chat: dự án độc lập, học bám theo commit
+
+Chat dự án dùng [prompt kỹ thuật](https://github.com/Krev1/spendwise-ai/blob/main/prompts/START_HERE.md) và chỉ sửa spendwise-ai. Chat học dùng [MENTOR_PROMPT.md](MENTOR_PROMPT.md) và chỉ sửa Learn/spendwise-ai; bắt đầu bằng bài 00/01 và không chặn tiến độ code.
+
+Đọc [workflow học](study_workflow.md) và [mapping bài ↔ TASK/REQ/commit](learning_map.json). Mentor kiểm tra bàn giao mới ở đầu buổi, chọn SHA cố định và ghi mức hiểu riêng. Chưa tạo chat, môi trường practice hoặc automation trong lần cập nhật này; người dùng có thể tạo hai chat và dán hai prompt riêng.

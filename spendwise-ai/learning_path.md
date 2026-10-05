@@ -1,6 +1,6 @@
 # Lộ trình vừa làm vừa học
 
-Mỗi mốc có bốn đầu ra: code chạy được, giải thích bằng tiếng Việt, một bài tập bạn tự sửa và bằng chứng kiểm tra. Không đánh dấu “đã hiểu” chỉ vì chạy được lệnh.
+Luồng học theo D13: chọn commit/code đã được dự án bàn giao, tạo giải thích tiếng Việt, bài tự làm và bằng chứng thực hành riêng. Dự án tiếp tục độc lập; học có thể đi chậm hơn. Không đánh dấu “đã hiểu” chỉ vì tests dự án pass. Đọc [workflow](study_workflow.md) và [mapping](learning_map.json) để dùng checkout thực hành riêng.
 
 ## Cách học trong một buổi
 

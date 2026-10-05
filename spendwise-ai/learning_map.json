@@ -1,0 +1,98 @@
+{
+  "updated_on": "2026-10-05",
+  "workflow_decision": "D13",
+  "project_repository": "https://github.com/Krev1/spendwise-ai",
+  "project_handoff_path": "docs/PROJECT_HANDOFF.md",
+  "handoff_protocol_commit": "6d28c6ab2502e29e202290433fdd374bc4417155",
+  "active_learning_code_commit": "9ac8ed0c4702b30ce4a26b980595526c4031e03a",
+  "update_policy": "Mentor reviews handoff at session start; pin lesson SHA; no automatic thread messaging",
+  "lessons": [
+    {
+      "lesson": "00",
+      "path": "lessons/00_git_and_environment.md",
+      "tasks": [
+        "TASK-02"
+      ],
+      "reqs": [
+        "REQ-11",
+        "REQ-12",
+        "REQ-13"
+      ],
+      "code_commit": "9ac8ed0c4702b30ce4a26b980595526c4031e03a",
+      "source_files": [
+        "scripts/check_environment.py",
+        "requirements.lock.txt"
+      ],
+      "material_status": "prepared",
+      "learner_status": "not_verified"
+    },
+    {
+      "lesson": "01",
+      "path": "lessons/01_python_and_money.md",
+      "tasks": [
+        "TASK-03",
+        "TASK-04"
+      ],
+      "reqs": [
+        "REQ-01",
+        "REQ-06",
+        "REQ-13"
+      ],
+      "code_commit": "9ac8ed0c4702b30ce4a26b980595526c4031e03a",
+      "source_files": [
+        "src/spendwise/domain/transactions.py",
+        "src/spendwise/services/csv_reader.py",
+        "src/spendwise/services/reports.py"
+      ],
+      "material_status": "prepared",
+      "learner_status": "not_verified"
+    },
+    {
+      "lesson": "02",
+      "path": "lessons/02_csv_and_labels.md",
+      "tasks": [
+        "TASK-04"
+      ],
+      "reqs": [
+        "REQ-04",
+        "REQ-13"
+      ],
+      "code_commit": "9ac8ed0c4702b30ce4a26b980595526c4031e03a",
+      "source_files": [
+        "src/spendwise/services/csv_reader.py",
+        "tests/test_csv_input.py"
+      ],
+      "material_status": "prepared",
+      "learner_status": "not_verified"
+    },
+    {
+      "lesson": "02b",
+      "path": "lessons/02b_dataset_construction.md",
+      "tasks": [
+        "TASK-05",
+        "TASK-06"
+      ],
+      "reqs": [
+        "REQ-08",
+        "REQ-09",
+        "REQ-13"
+      ],
+      "code_commit": "9ac8ed0c4702b30ce4a26b980595526c4031e03a",
+      "source_files": [
+        "src/spendwise/data/dataset.py",
+        "scripts/build_seed_dataset.py",
+        "data/seed/v0.1/DATASET_CARD.md"
+      ],
+      "material_status": "prepared",
+      "learner_status": "not_verified"
+    }
+  ],
+  "future_topics": [
+    "TASK-07: baseline",
+    "TASK-08-12: split/features/training/evaluation",
+    "TASK-13-16: SQLite/import",
+    "TASK-17-20: UI/integration",
+    "TASK-21-24: pilot/report/defense"
+  ],
+  "future_topics_status": "not_implemented_at_active_code_commit"
+}

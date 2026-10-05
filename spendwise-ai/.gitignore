@@ -1,0 +1,14 @@
+# Personal practice checkout/environment, not lesson deliverables
+practice/
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+*.db
+*.sqlite
+*.sqlite3
+*.joblib
+*.pkl
+data/private/

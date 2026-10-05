@@ -33,3 +33,7 @@ Bước tiếp theo:
 TASK-05–06 có code/seed/provenance trong dự án, [commit tham chiếu](https://github.com/Krev1/spendwise-ai/commit/9ac8ed0c4702b30ce4a26b980595526c4031e03a). Bộ test phần mềm 86 passed + 11 subtests; không phải mức hiểu của người học. Learn có hướng dẫn phương pháp và nhãn, template trống, bài 02b và 20 tình huống.
 
 Thống kê kỹ thuật: 356 hư cấu (319 tự tạo, 37 chuyển ngữ), 0 thật, 33 nhóm, nhãn `ai_draft`, 0 người duyệt. Chưa thu pilot người thật, chưa train/test model. Chờ người học chạy lệnh, tự gán câu và giải thích hạn chế trước khi ghi mức hiểu.
+
+## D13 — Tiến độ học riêng — 05/10/2026
+
+Chat dự án triển khai độc lập; chat học bám [mapping](learning_map.json)/[bàn giao](https://github.com/Krev1/spendwise-ai/blob/6d28c6ab2502e29e202290433fdd374bc4417155/docs/PROJECT_HANDOFF.md). Mốc code học ban đầu 9ac8ed0c4702b30ce4a26b980595526c4031e03a; lần này chỉ chuẩn bị workflow/prompt/mapping/ignore. Chưa tạo practice checkout/môi trường, chưa chạy bài hoặc nhận câu trả lời mới từ người học. Mọi ô mức hiểu ở trên giữ chưa xác minh; tiến độ kỹ thuật không bị chặn bởi trạng thái này.

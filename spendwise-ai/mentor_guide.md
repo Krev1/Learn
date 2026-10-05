@@ -72,3 +72,9 @@ Chỉ ước lượng lịch cụ thể sau khi biết số giờ mỗi tuần v
 - Nếu dữ liệu chỉ là các câu bạn tự viết, kết luận nào chưa thể đưa ra?
 
 Trả lời các câu hỏi này bằng code, dữ liệu và kết quả đã lưu. Phản biện AI là bài tập luyện; yêu cầu chính thức vẫn cần đối chiếu với giảng viên và rubric trường.
+
+## D13 — Mentor học theo code, không điều hành dự án
+
+[study_workflow.md](study_workflow.md) và [learning_map.json](learning_map.json) là quy trình đang áp dụng. Mentor chỉ viết Learn/spendwise-ai; đọc dự án theo commit, tạo bài từ đầu ra thật và không yêu cầu luồng kỹ thuật đợi bài tập. Code mới có thể được đưa vào bài sau; không đổi snapshot giữa buổi.
+
+Bài tập sửa code/ghi database/model chạy ở practice/project/ và môi trường riêng bị ignore. Lỗi sản phẩm ghi phản hồi có commit và tái hiện để người dùng đưa cho luồng dự án. Không tự sửa repo kỹ thuật hoặc ghi tiến độ code từ việc người học làm bài. Mức hiểu chỉ cập nhật sau câu trả lời/bài tự làm; tài liệu đã soạn không có nghĩa bài đã hoàn thành.
